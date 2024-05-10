@@ -25,19 +25,53 @@
         .navbar-brand {
             background: transparent;
         }
-        .cd-hero-slider {
-            height: 30vh;
 
-    }
+        .cd-hero-slider {
+            height: 40vh;
+
+        }
+
+        .cd-hero-slider .cd-full-width,
+        .cd-hero-slider .cd-half-width {
+            /* padding-top: 50px; */
+            top: 20%;
+        }
+
+        @media screen and (min-width:768px) {
+
+            .cd-hero-slider .cd-full-width,
+            .cd-hero-slider .cd-half-width {
+                top: 10%;
+
+            }
+        }
+
+        @media screen and (min-width:768px) {
+
+            .cd-hero-slider .cd-full-width,
+            .cd-hero-slider .cd-half-width {
+                top: 10%;
+
+            }
+        }
+
+        @media screen and (min-width:1400px) {
+
+            .cd-hero-slider .cd-full-width,
+            .cd-hero-slider .cd-half-width {
+
+                padding: 60px;
+
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class=body-inner>
         <header id=header class="fixed-top header" role=banner>
-            <a class="navbar-brand navbar-bg" href=index.html><img class="img-fluid  "
-                src="images/my_img/logo.jfif" height="70px" width="70px"
-                alt=" "></a>
+            <a class="navbar-brand navbar-bg" href=index.html><img class="img-fluid  " src="images/my_img/logo.jfif"
+                    height="70px" width="70px" alt=" "></a>
             <div class=container>
                 <nav class="navbar navbar-expand-lg navbar-dark">
                     <button class="navbar-toggler ml-auto border-0 rounded-0 text-white" type=button
@@ -77,15 +111,15 @@
                                     <a class="dropdown-item text-capitalize" href=../team/index.html>AGGREGATE STONE</a>
                                 </div>
                             </li> -->
-                            
+
                         </ul>
-                      
+
                     </div>
                 </nav>
             </div>
         </header>
-        <section id=home class=p-0  > 
-            <div id="main-slide "   class=cd-hero>
+        <section id=home class=p-0>
+            <div id="main-slide " class=cd-hero>
                 <ul class=cd-hero-slider>
                     <li class=selected>
                         <div class=overlay2>
@@ -95,7 +129,6 @@
                         </div>
                         <div class=cd-full-width>
                             <h2>ABOUT US</h2>
-                            
                         </div>
                     </li>
                     <!-- <li>
@@ -170,13 +203,9 @@
                             <a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle=pill
                                 href=#modern-design role=tab aria-selected=true>
                                 <i class="fa fa-pagelines mr-4"></i>
-                                <span class="h4 mb-0 font-weight-bold">Modern Design</span>
+                                <span class="h4 mb-0 font-weight-bold">Main Products</span>
                             </a>
-                            <a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle=pill
-                                href=#dedicated-support role=tab aria-selected=true>
-                                <i class="fa fa-support mr-4"></i>
-                                <span class="h4 mb-0 font-weight-bold">Dedicated Support</span>
-                            </a>
+
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-7">
@@ -192,15 +221,19 @@
                             </div>
                             <div class="tab-pane pl-sm-5 fade animated fadeInLeft" id=our-company role=tabpanel>
                                 <i class="fa fa-briefcase icon-xl text-primary mb-4"></i>
-                                <h3>We Have Worldwide Business</h3>
-                                <p>Over the year we have lots of experience in our field. In sit amet massa sapien.
-                                    Vestibulum diam turpis, gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit
-                                    amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim
-                                    suscipit. Duis lorem nulla, eleifend.</p>
+                                <h3>About Office</h3>
+                                <p>
+                                <ul>
+                                    <li> 1957 (FAMILY BUSINESS)</li>
+                                    <li>Name of Owner/CEO : VAIBHAV BANSAL</li>
+                                    <li>Qualification or Specialization : MBA</li>
+                                    <li>Vat Tin Certification : 06621500204</li>
+                                </ul>
+                                </p>
                             </div>
                             <div class="tab-pane pl-sm-5 fade animated fadeInLeft" id=what-we-do role=tabpanel>
                                 <i class="fa fa-android icon-xl text-primary mb-4"></i>
-                                <h3>We Build Readymade Applications</h3>
+                                <h3>We Export</h3>
                                 <p>The manufacturing of the Precision Drawell’s Cold Heading Quality (CHQ) Wires
                                     involves two important process named HRPPD (Hot Rolled Pickling, Phosphating and
                                     Drawing) & SAPPD (Spherodized Annealed, Pickling, Phosphating, and Drawing) are used
@@ -208,11 +241,19 @@
                             </div>
                             <div class="tab-pane pl-sm-5 fade animated fadeInLeft" id=modern-design role=tabpanel>
                                 <i class="fa fa-pagelines icon-xl text-primary mb-4"></i>
-                                <h3>Clean and Modern Design</h3>
-                                <p>Over the year we have lots of experience in our field. In sit amet massa sapien.
-                                    Vestibulum diam turpis, gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit
-                                    amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim
-                                    suscipit. Duis lorem nulla, eleifend.</p>
+                                <h3>Main Products</h3>
+                                <ul>
+                                    <li>WIRE NAILS</li>
+                                    <li>CHQ WIRE</li>
+                                    <li>GI WIRE</li>
+                                    <li>MS WIRE</li>
+                                    <li>ALUMINIUM INGOTS,BILLITS</li>
+                                    <li>NUT-BOLT</li>
+                                    <li>WIREMESH</li>
+                                    <li>BARBED WIRE</li>
+                                    <li>QUARTZ POWDER</li>
+                                    <li>AGGREGATE STONE</li>
+                                </ul>
                             </div>
                             <div class="tab-pane pl-sm-5 fade animated fadeInLeft" id=dedicated-support role=tabpanel>
                                 <i class="fa fa-support icon-xl text-primary mb-4"></i>
@@ -231,7 +272,7 @@
             <div class=gap-60></div>
 
         </section>
-       
+
         <footer id=footer class=footer>
             <div class=container>
                 <div class=row>
@@ -268,7 +309,7 @@
                 </div>
             </div>
         </footer>
-        <section id=  >
+        <section id=>
             <div class=container>
                 <div class=row>
                     <div class="col-md-12 text-center">
